@@ -607,7 +607,7 @@ a:hover{
  .right-text{															/***RIGHT TEXT MOBILE***/
  	width: 50%;
  	display: block;
- 	transform: translate(-20%,-7.5%);
+ 	transform: translate(-15%,-7.5%);
  }
 .button-1{
 	max-width: 250px;
