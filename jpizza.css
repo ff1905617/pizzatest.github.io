@@ -35,6 +35,10 @@ html{
 	width: 100%;
 	padding: 10px;
 }
+.topnav-desktop{
+	padding-top: 24px;
+	padding-bottom: 16px;
+}
 .phone-nav{
 	width: 50%;
 	text-align: right;
@@ -607,7 +611,8 @@ a:hover{
  .right-text{															/***RIGHT TEXT MOBILE***/
  	width: 50%;
  	display: block;
- 	transform: translate(-15%,-7.5%);
+ 	transform: translate(-20%,-7.5%);
+ 	text-align: left;
  }
 .button-1{
 	max-width: 250px;
