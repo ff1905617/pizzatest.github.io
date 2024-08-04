@@ -118,6 +118,9 @@ a:hover{
 	background-repeat: none;
 	float: left;
 	}
+.hero-text{
+	padding-top: 24px;
+}
 .right-text{
  	width: 50%;
  	display: inline-block;
@@ -214,10 +217,6 @@ a:hover{
 	font-size: 3em;
 	font-family: Veneer;
 	color: white;
-	}
-	.hero-text{
-	margin-top: 16px;
-	padding: 20px;	
 	}
 	.contact-container{
 	background-color: #8e2323;
@@ -605,11 +604,10 @@ a:hover{
 	color: white;
 	line-height: 2.5rem;
 }
- .right-text{
+ .right-text{															/***RIGHT TEXT MOBILE***/
  	width: 50%;
- 	display: inline-block;
- 	transform: translate(-15%,-7.5%);
-	 margin-left: 8px;
+ 	display: block;
+ 	transform: translate(-25%,-7.5%);
  }
 .button-1{
 	max-width: 250px;
@@ -813,36 +811,36 @@ a:hover{
 	background-position: left;
 	background-repeat: none;
 	float: left;
-	}
-		.topnav-logo{
-		height: 50%;
-		width: 50%;
-		display: block;
-		margin-bottom: 30px;
-		float: left;
-	}
-	.column-nav{
-		float: right;
-	}
-	.left-nav{
-		width: 50%;
-	}
-	.right-nav{
-		width: 50%;
-	}
-	.row-nav: after{
-		content: "";
-  		display: table;
-  		clear: both;
-	}
-	.opennav{
-		font-size: 64px;
-		color: white;
-		display: block;
-		float: right;
-	}
-	.sidenav {
-  	height: 100%;
+}
+.topnav-logo{
+	height: 50%;
+	width: 50%;
+	display: block;
+	margin-bottom: 30px;
+	float: left;
+}
+.column-nav{
+	float: right;
+}
+.left-nav{
+	width: 50%;
+}
+.right-nav{
+	width: 50%;
+}
+.row-nav: after{
+	content: "";
+  	display: table;
+  	clear: both;
+}
+.opennav{
+	font-size: 64px;
+	color: white;
+	display: block;
+	float: right;
+}
+.sidenav {
+ 	height: 100%;
   	width: 0;
   	position: fixed;
   	z-index: 1;
@@ -878,9 +876,6 @@ a:hover{
   font-size: 44px;
   margin-left: 50px;
 	}
-*{
-box-sizing: border-box;
-}
 .column{
 	float:left;
 	display: none;
